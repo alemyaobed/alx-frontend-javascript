@@ -3,9 +3,7 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
-    const task = true;
-    const task2 = false;
+    // eslint-disable-line no-unused-expressions
   }
-
   return [task, task2];
 }
